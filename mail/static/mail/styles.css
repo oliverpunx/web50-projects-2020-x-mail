@@ -1,0 +1,74 @@
+textarea {
+    min-height: 400px;
+}
+
+table,tr{
+    border: 2px solid black;
+}
+
+td,th{
+    padding: 10px;
+
+}
+
+#btnCompose{
+    margin:10px;
+}
+
+#emails-view{
+    display: grid;
+    grid-template-columns: auto;   
+    grid-template-rows: auto;
+}
+
+#compose-view{
+    margin: 50px;
+}
+
+.form-group{
+    padding: 10px;
+
+}
+
+.divCabBuzon{
+    border: 1px solid black;
+    padding: 10px;
+    margin:5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.divColBuzon{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;  
+}
+
+.divBodBuzon{
+    border: 1px solid black;
+    padding: 10px;
+    margin:5px;
+    min-height: 100px;
+}
+
+.divMail{
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnArchived,.btnUnarchive{
+    color: white;
+    text-decoration: none;
+    margin: 4px;
+}
+
+
